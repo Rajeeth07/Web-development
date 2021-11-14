@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> website desgin assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"> <!--For logos and images-->
+    <link rel="stylesheet" href="style.css"><!--Esensial grapical works-->
+</head>
+<body>
+    <!--header section starts -->
+    <header>
+        <div class="header-1">
+            <a herf="#" class="logo"><i class="fas fa-shopping-basket"></i>Gaming Webpage</a>
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="Search here....">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-2">
+            <div id="menu-bar" class="fas fa-bars"><details close><summary></summary>
+                <a herf="-Fruits-">Monitor</a><br><br>
+                <a herf="-Nuts-">Gpu</a><br><br>
+                <a herf="-Vegitables-">Mouse</a><br><br>
+                <a herf="-Organic drinks-">Keybord</a>
+                </details></div>
+            <nav class="navbar">
+                <a href="-home-">home</a>
+                <a href="-product-">product</a>
+                <a href="-deal-">deal</a>
+                <a href="-contract-">contact</a>
+                </nav>
+        <div class="icons">
+            <script>
+                function showAltertS() {
+                    alert ("This site don't have any sever! :( ");
+                }
+                </script>
+            <div onclick="showAltertS()" class="fas fa-shopping-cart"></div>
+            <div onclick="showAltertS()" class="fas fa-heart"></div>
+            <div onclick="showAltertS()" class="fas fa-user-circle"></div>
+            </div>
+        </div>
+    </header>
+<!--header section ends -->
+
+<!--Items section start-->
+<div class="label">Flash Deals</div>
+    <div class="box-container" >
+        <div class="box">
+            <p>upto 25% off</p>
+            <h3>Logitec Mouse</h3>
+            <img src="images/ce2f24783cc363762dff0e35cafcfdf6.jpg" alt="">
+            <div class="btn" onclick="showAlertM()">More details</div>
+            <script >
+                function showAlertM() {
+                  alert ("cheapest Mouse");
+                }
+                </script>
+            </div>
+            <div class="box">
+                <p>upto 45% off</p>
+                <h3>Asus Keyboard</h3>
+                <img src="images/alloy-bg_m.jpg" alt="" width:20px;height:20px;>
+                <div class="btn" onclick="showAlertC()">More details</div>
+                <script >
+                    function showAlertC() {
+                      alert ("Cheapest Keybord");
+                    }
+                    </script>
+                </div>
+            <div class="box">
+                <p>upto 20% off</p>
+                <h3>Msi monitor</h3>
+                <img src="images/monitor-20210526-1.jpg" alt="">
+                <div class="btn" onclick="showAlertO()">More details</div>
+                <script >
+                    function showAlertO() {
+                      alert ("Cheapest Monitor");
+                    }
+                    </script>
+            </div>
+            <div class="box">
+                <p>upto 35%% off</p>
+                <h3>Gigabite Vga</h3>
+                <img src="images/o202010080955417059.png" alt="">
+                <div class="btn" onclick="showAlertT()">More details</div>
+                <script>
+                    function showAlertT() {
+                      alert ("Cheapest VGA card");
+                    }
+                    </script>
+                </div>
+</div>
+<!--Items section ends-->
+
+<!--Home sections starts-->
+<section class="home" id="home">
+    <div class="image">
+        <img src="images/HD-wallpaper-pc-gamer-pc.jpg" alt="">
+    </div>
+    <div class="content">
+        <span>Gamming systems only</span>
+        <h3>Cheap gamming systems</h3>
+        <div class="btn" onclick="showAltertS()">SETUP YOUR NEW PC
+        </div>
+    </div>
+</section>
+
+<!--home section ends-->
+
+</body>
+</html>
